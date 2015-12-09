@@ -1,0 +1,18 @@
+Author: Francisco Da Costa
+Student ID: 5026516
+
+Assignment 3: Implementation of reader solution.
+
+To Build:
+	$ make
+
+To Run:
+	$ ./Assignment3
+
+Purpose:
+
+	The purpose of this assignment is to implement the reader solution using Java threads and C pthreads.
+Unfortunately I forgot to implement this with Java threads.
+
+
+

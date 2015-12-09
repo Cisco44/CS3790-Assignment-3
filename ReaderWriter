@@ -1,0 +1,24 @@
+#ifndef READERWRITER
+#define READERWRITER
+
+#include <unistd.h>
+#include <iostream>
+#include <semaphore.h>
+#include <pthread.h>
+#include <cstdlib>
+
+using namespace std;
+
+extern int value;
+extern int readCount;
+extern sem_t readSem;
+extern sem_t accessSem;
+
+
+void *Reader(void *);
+void *Writer(void *);
+
+
+#endif
+
+
